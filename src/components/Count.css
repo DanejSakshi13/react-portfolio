@@ -4,7 +4,7 @@
     position: relative;
 }
 .stats{
-    background-image: url("D:\Backup\Sakshi\College\Resume\portfolio\src\images\dot.png");
+    background-image: url("../images/dot.png");
     height: 37vh;
     background-size: cover;
     position: relative;
