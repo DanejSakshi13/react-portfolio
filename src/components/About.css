@@ -1,0 +1,81 @@
+.white-card{
+    background-color: #212121;
+    height:81.4vh;
+    width:90vw;
+    margin:6% 7%;
+    border-radius: 40px;
+}
+
+.background{
+  background-color: black;
+    height: 100vh;
+  }
+  
+.about-me{
+    color: #ffffff;
+    font-family: League Spartan;
+    font-size: 6vw;
+    font-weight: 500;
+    text-align: left;
+    opacity: 0.9;
+    padding-left: 7%;
+    padding-top: 5%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+.tagline, .desc{
+    color: #dfff50;
+    font-family: Lexend Deca;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.desc{
+    font-size: 1.5vw;
+    padding-right: 35vw;
+    line-height: 2;
+}
+
+.tagline{
+    font-size: 2.4vw;
+}
+
+.rainbow-highlight {
+    background: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #00ff80, #0080ff, #8000ff, #ff0080);
+    background-size: 600% 600%;
+    animation: rainbow 5s linear infinite;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline;
+    font-weight: bold;
+    font-size: 1.8vw;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+
+
+
+  .profile-img {
+    width: 35vw;
+    height: 75.5vh;
+    margin-top: 86px;
+    display: block; 
+    margin-left: 8%;
+}
+
+@media (max-width: 767px) {
+    .profile-img {
+        display: none; 
+    }
+}

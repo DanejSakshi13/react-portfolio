@@ -1,0 +1,53 @@
+.home-section{
+    background-color: black;
+    height: 100vh;
+}
+
+.developer-container {
+    position: relative;
+    z-index: 1; /* Set a higher z-index for the developer's content */
+  }
+
+.main-row{
+    /* background-color: white; */
+    /* background-color: #BED754; */
+    height: 80vh;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+}
+
+.developer, .designer{
+    color: #dfff50;
+    font-family: Lexend Deca;
+    font-size: 5vw;
+    font-weight :400;
+    margin-top: 100px;
+    text-align: center;
+    z-index: 2;
+}
+
+
+.code-box-intro {
+    width: 62%;
+    height: 51%;
+    font-size: 1.1vw;
+    background-color: #212121;
+    border: 1px solid white;
+    color: #ffffff;
+    margin-left: 19%;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 1px #dfff50;
+    padding-left: 15px;
+    margin-top: 50px;
+    transition: box-shadow 0.3s ease-in-out; /* Add transition for smooth hover effect */
+}
+
+.code-box-intro:hover {
+    box-shadow: 0 0 100px 2px #dfff50; /* Adjust the hover box shadow as per your preference */
+}
+
+.desginer{
+    color: #dfff50;
+}
+

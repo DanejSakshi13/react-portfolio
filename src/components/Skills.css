@@ -1,0 +1,109 @@
+.main-section{
+    height: 115vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 17vw;
+    padding-top: 4%;
+}
+.skills-heading{
+    font-family: League Spartan;
+    font-weight: 500;
+    text-align: left;
+    opacity: 0.9;
+    font-size: 6vw;
+    padding-left: 8%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #dfff50;
+}
+
+.col{
+    background-color:  #212121;
+    height: 45vh;
+    margin-left: 3vw;
+    margin-top: 2%;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+.web-diagram{
+    margin-left: 3vw;
+}
+
+.what-skill{
+    padding-left: 1vw;
+    color: #dfff50;
+    padding-top: 1vw;
+    font-size: 1.5vw;
+}
+
+.skill{
+    background-color: transparent;
+    height: 4.5vh;
+    width: 4.2vw;
+    border: #dfff50 1px solid ;
+    border-radius: 0.3vw;
+    margin-left: 1vw;
+    color: rgb(195, 195, 195);
+    padding-top: 0.4vh;
+    margin-top: 1.5vh;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+}
+
+
+.prog-lang{
+    margin-left: 1px;
+}
+
+.css, .flask,.java,.canva{
+    border: #ff5555 1px solid ;
+}
+
+.tailwind,.oracle{
+    width: 6vw;
+    border: #ff5aba 1px solid;
+}
+
+.javascript, .express,.postman{
+    border: #557dff 1px solid ;
+    width: 6vw;
+}
+
+.react, .node,.mysql,.creative{
+    width: 5.3vw;
+    border: #60f3e4 1px solid ;
+}
+
+.mongodb{
+    width: 6.6vw;
+}
+
+.postgres,.adapt{
+    width: 7vw;
+    border: #557dff 1px solid ;
+}
+
+.python,.git{
+    width: 5vw;
+    border: #ff9544 1px solid ;
+
+}
+
+.soft-skills{
+    background-color: #212121;
+    margin-left: 90px;
+    margin-top: 50px;
+    height: 70px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.communi{
+    width: 160px;
+}
+
+.growth{
+    width: 130px;
+    border: #ff9544 1px solid ;
+}
+

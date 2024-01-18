@@ -1,0 +1,25 @@
+.navbar-brand-left {
+  margin-right: auto;
+  padding-left: 100px;
+  font-size: xx-large;
+  font-family: 'League Spartan', sans-serif; /* Apply the font-family to the brand */
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: whitesmoke;
+  padding-left: 30px; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #dfff50;
+}
+
+.navbar-right {
+  margin-right: 50px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: x-large;
+}
