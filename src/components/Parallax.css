@@ -1,9 +1,9 @@
 section {
     background-color: rgb(0, 0, 0);
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
-    color: #dfff50;
-    padding-top: 10px;
+    color: hsl(71, 100%, 66%);
+    padding-top: 50px;
     -webkit-font-smoothing: antialiased;
     font-family: sofia-pro, sans-serif;
 }

@@ -9,10 +9,10 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const NavbarComponent = () => {
   return (
     <Navbar bg="black" variant="dark" expand="lg" className="fixed-top">
-      <Navbar.Brand href="#home" className="navbar-brand-left">sakshi danej</Navbar.Brand>
+      {/* <Navbar.Brand href="#home" className="navbar-brand-left">sakshi danej</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto navbar-right">
+        <Nav className="ml-auto navbar-right highlightTextIn">
           <Nav.Link href="#home">home</Nav.Link>
           <Nav.Link href="#about">projects</Nav.Link>
           <Nav.Link href="#contact">about</Nav.Link>
@@ -28,3 +28,12 @@ const NavbarComponent = () => {
 };
 
 export default NavbarComponent;
+
+
+
+
+
+
+
+
+// BOX SHADOW

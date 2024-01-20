@@ -1,10 +1,13 @@
 import { Col, Row } from "antd";
-import { Carousel } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 import "./Home.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 // import CustomCursor from "./CustomCursor";
 import flowColors from "../images/colorsFlowing.png";
 import NavbarComponent from "./Navbar";
+import food from "../images/food.png";
+import fintech from "../images/fintech.png";
 
 export default function Home() {
   const initialHtmlCode = `
@@ -59,7 +62,27 @@ export default function Home() {
           </div>
         </Col>
         <Col span={12}>       
+
         <h1 className="designer">designer</h1>
+
+        <Carousel 
+        className="carousel-section"
+      showStatus={false} 
+      infiniteLoop={true} 
+      autoPlay={true}
+      showThumbs={false}
+      showArrows={false} 
+
+        
+        >
+                <div>
+                    <img src={food} alt="foodimg"/>
+                </div>
+                <div>
+                <img src={fintech} alt="foodimg"/>
+                </div>
+            </Carousel>
+        
         </Col>
       </Row>
     </div>

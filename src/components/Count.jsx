@@ -35,7 +35,7 @@ export default function Count() {
         <Row className="stats-row">
           <Col span={4} className="data">
             <h1>
-              <CountUp start={startCounting ? 0 : null} end={6} duration={3} separator="," />
+              <CountUp start={startCounting ? 0 : null} end={6} duration={6} separator="," />
             </h1>
             <h5>Projects completed</h5>
           </Col>
@@ -47,7 +47,7 @@ export default function Count() {
           </Col>
           <Col span={4} className="data">
             <h1>
-              <CountUp start={startCounting ? 0 : null} end={4} duration={3} separator="," />
+              <CountUp start={startCounting ? 0 : null} end={4} duration={6} separator="," />
             </h1>
             <h5>Programming Languages</h5>
           </Col>

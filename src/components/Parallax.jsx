@@ -57,11 +57,11 @@ export default function Parallax() {
     <section>
       <ParallaxText baseVelocity={-2}>IF YOU ARE LOOKING FOR SOMEONE...</ParallaxText>
       <ParallaxText baseVelocity={0.5}>
-      Excellence Advocate
-        Feedback-Driven Professional
-        Versatile and Curious Mindset
-        Skill Mastery
-        Continuous Learner and Upskiller
+      • Excellence Advocate
+      •  Feedback-Driven Professional
+      • Versatile and Curious Mindset
+      • Skill Mastery
+      • Continuous Learner and Upskiller
       </ParallaxText>
     </section>
   );

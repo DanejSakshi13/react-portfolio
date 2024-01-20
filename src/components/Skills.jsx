@@ -6,7 +6,7 @@ export default function Skills() {
 
     return (
         <div className="main-section">
-            <h1 className="skills-heading">what i know</h1>
+            <h1 className="skills-heading">what i'm good at</h1>
             <Row className="web-diagram">
                 <Col span={3} className="col">
                     <Row><h2 className="what-skill prog-lang">Programming languages</h2></Row>

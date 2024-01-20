@@ -8,7 +8,8 @@
 
 .background{
   background-color: black;
-    height: 100vh;
+    height: 120vh;
+    padding-top: 100px;
   }
   
 .about-me{
@@ -19,7 +20,7 @@
     text-align: left;
     opacity: 0.9;
     padding-left: 7%;
-    padding-top: 5%;
+    padding-top: 2%;
     margin-block-start: 0;
     margin-block-end: 0;
 
@@ -78,4 +79,34 @@
     .profile-img {
         display: none; 
     }
+}
+
+
+.resume-btn{
+  height: 8.3vh;
+  width: 12vw;
+  border: none;
+  border-radius: 10px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.5vw;
+  background-color: #dfff50;
+}
+
+/* Add this CSS to your existing styles */
+.download-icon {
+  padding-left: 1.6vw;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.download-icon:hover {
+  transform: translateY(-3px); /* Adjust the distance the button moves on hover */
+}
+
+
+.arrow-img{
+  width: 250px;
+  height: 250px;
+  margin-left: 250px;
+  margin-top: -90px;
 }

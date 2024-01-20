@@ -1,5 +1,5 @@
 .hire-main-section {
-    background-color: rgb(155, 70, 70);
+    background-color: rgb(0, 0, 0);
     height: 80vh;
     width: 100vw;
 }
@@ -9,5 +9,75 @@ h1{
     padding: 0;
 }
 
+/* .hire-me-heading{
+    font-family: League Spartan;
+    font-weight: 500;
+    text-align: left;
+    font-size: 6vw;
+    padding-left: 7%;
+    padding-top: 5%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #ffffff;
+} */
+
+.hire-me-heading{
+    font-family: League Spartan;
+    color: #ffffff;
+    padding-left: 7%;
+    padding-top: 5%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 10vw;
+}
+
+form {
+    text-align: left; 
+    margin-left:    7vw;
+    margin-top: 5vh;
+}
+
+.inputfields {
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    height: 6vh;
+    width: 25vw;
+    font-family: 'League Spartan', sans-serif;
+    padding-left: 1vw;
+    font-size: 1.4vw;
+}
+
+.submit-btn{
+    width: max-content;
+    height: 6.4vh;
+    background-color: #dfff50;
+    border-radius: 10px;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.4vw;
+    text-align: center;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-20px);
+    }
+    60% {
+        transform: translateX(-10px);
+    }
+}
 
 
+.play-icon{
+    padding-left: 1.7vw;
+    padding-top: 4px;
+    animation: bounce 1.2s infinite;
+}

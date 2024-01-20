@@ -7,8 +7,7 @@ import Count from './components/Count';
 import Skills from './components/Skills';
 import Hire from './components/Hire';
 import Parallax from './components/Parallax';
-import { Router } from 'react-router-dom';
-
+import FooterComponent from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -20,6 +19,7 @@ function App() {
       <Skills />
       <Parallax />
       <Hire />
+      <FooterComponent />
     </div>
   );
 }
