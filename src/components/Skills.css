@@ -23,6 +23,8 @@
     margin-top: 2%;
     border-radius: 1vw;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .web-diagram{

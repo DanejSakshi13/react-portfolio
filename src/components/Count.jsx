@@ -34,22 +34,22 @@ export default function Count() {
       <div className="stats">
         <Row className="stats-row">
           <Col span={4} className="data">
-            <h1>
+            <h1 className="count-digits">
               <CountUp start={startCounting ? 0 : null} end={6} duration={6} separator="," />
             </h1>
-            <h5>Projects completed</h5>
+            <h5>projects completed</h5>
           </Col>
           <Col span={4} className="data">
-            <h1>
+            <h1 className="count-digits">
               <CountUp start={startCounting ? 0 : null} end={150} duration={6} separator="," />+
             </h1>
-            <h5>DSA Questions Solved</h5>
+            <h5>DSA puestions solved</h5>
           </Col>
           <Col span={4} className="data">
-            <h1>
+            <h1 className="count-digits">
               <CountUp start={startCounting ? 0 : null} end={4} duration={6} separator="," />
             </h1>
-            <h5>Programming Languages</h5>
+            <h5>programming languages</h5>
           </Col>
         </Row>
       </div>

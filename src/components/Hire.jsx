@@ -10,7 +10,9 @@ export default function Hire() {
         <div className="hire-main-section">
             <Row>
                 <Col span={12}>  <h1 className="hire-me-heading">let's get in touch</h1>
-                <img src={dotAnimation} alt="" srcset="" />
+                <div className="circle">
+                <p className="hire-me-ripple">hire me</p>
+                </div>
                 </Col>
 
                 <Col span={12}> </Col>

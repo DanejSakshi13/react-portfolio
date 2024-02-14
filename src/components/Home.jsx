@@ -6,84 +6,43 @@ import { Carousel } from 'react-responsive-carousel';
 // import CustomCursor from "./CustomCursor";
 import flowColors from "../images/colorsFlowing.png";
 import NavbarComponent from "./Navbar";
-import food from "../images/food.png";
-import fintech from "../images/fintech.png";
+import mobileui from "../images/mobileui.png";
+import imacui from "../images/imac.png";
 
 export default function Home() {
-  const initialHtmlCode = `
-    <html>
-      <body>
-        <div class="myName">
-            <h1> SAKSHI GANESH DANEJ </h1>
-        </div>
-        <div class="welcome-msg">
-        Merging Creativity and Technology
-        </div>
-        <div class="welcome-msg">
-            WELCOME TO MY PORTFOLIO!
-        </div>
-      </body>
-    </html>
-  `;
-
-  const [htmlCode, setHtmlCode] = useState('');
-
-  const runTypewriter = () => {
-    const text = initialHtmlCode.trim();
-    let index = 0;
-
-    const interval = setInterval(() => {
-      setHtmlCode(text.slice(0, index));
-      index++;
-
-      if (index > text.length) {
-        clearInterval(interval);
-        // Reset the typewriter effect
-        setTimeout(() => {
-          setHtmlCode('');
-          runTypewriter();
-        }, 1000); // Adjust the delay based on your preference
-      }
-    }, 35);
-  };
+  const [isDisplayed, setIsDisplayed] = useState(false);
+  const [imacColSpan, setImacColSpan] = useState(24);
+  const [mobileColSpan, setMobileColSpan] = useState(0);
 
   useEffect(() => {
-    runTypewriter();
-  }, []); // Run the typewriter effect on mount
+    // Display the mobile UI and designer heading after a delay
+    const timeout = setTimeout(() => {
+      setIsDisplayed(true);
+      setImacColSpan(12);
+      setMobileColSpan(12);
+    }, 2000); // Adjust the delay as needed
+
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
-    <div className="home-section">
+    <div className={`home-section ${isDisplayed ? 'shifted' : ''}`}>
       <NavbarComponent />
       <Row className="main-row">
-        <Col span={12}>
-          <h1 className="developer">{"<developer>"}</h1>
-          <div className="code-box-intro">
-            <pre>{htmlCode}</pre>
+        <Col span={imacColSpan} className="imac-col">
+          <div className={`imac-container ${isDisplayed ? 'small' : ''}`}>
+            <h1 className="developer">{"<developer>"}</h1>
+            <img src={imacui} alt="" className="imacui" />
           </div>
         </Col>
-        <Col span={12}>       
-
-        <h1 className="designer">designer</h1>
-
-        <Carousel 
-        className="carousel-section"
-      showStatus={false} 
-      infiniteLoop={true} 
-      autoPlay={true}
-      showThumbs={false}
-      showArrows={false} 
-
-        
-        >
-                <div>
-                    <img src={food} alt="foodimg"/>
-                </div>
-                <div>
-                <img src={fintech} alt="foodimg"/>
-                </div>
-            </Carousel>
-        
-        </Col>
+        {isDisplayed && (
+          <Col span={mobileColSpan} className="mobile-col">
+            <div className="mobile-container">
+              <img src={mobileui} alt="" className="mobile" />
+              <h1 className="designer">designer</h1>
+            </div>
+          </Col>
+        )}
       </Row>
     </div>
   );
@@ -106,6 +65,67 @@ export default function Home() {
 
 
 
+
+
+
+
+
+
+
+
+/* 
+
+ const initialHtmlCode = `
+    <html>
+      <body>
+        <div class="myName">
+            <h1> SAKSHI GANESH DANEJ </h1>
+        </div>
+        <div class="welcome-msg">
+        Merging Creativity and Technology
+        </div>
+        <div class="welcome-msg">
+            WELCOME TO MY PORTFOLIO!
+        </div>
+      </body>
+    </html>
+  `;
+
+
+
+useEffect(() => {
+  setTimeout(() => {
+    setShowMobile(true);
+  }, 3000); // Adjust the delay based on your preference
+}, []);
+const [htmlCode, setHtmlCode] = useState('');
+
+const runTypewriter = () => {
+  const text = initialHtmlCode.trim();
+  let index = 0;
+
+  const interval = setInterval(() => {
+    setHtmlCode(text.slice(0, index));
+    index++;
+
+    if (index > text.length) {
+      clearInterval(interval);
+      // Reset the typewriter effect
+      setTimeout(() => {
+        setHtmlCode('');
+        runTypewriter();
+      }, 1000); // Adjust the delay based on your preference
+    }
+  }, 35);
+};
+
+useEffect(() => {
+  runTypewriter();
+}, []); // Run the typewriter effect on mount
+
+
+
+*/
 
 
 

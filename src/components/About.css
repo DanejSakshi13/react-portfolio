@@ -64,15 +64,23 @@
     }
   }
   
-
+.image-background{
+  margin-left: 200px;
+  width: 18vw;
+    height: 39.9vh;
+    border-radius: 50%;
+    background-color: #0080ff;
+}
 
 
   .profile-img {
-    width: 35vw;
-    height: 75.5vh;
-    margin-top: 86px;
+    width: max-content;
+    height: 40vh;
+    padding-top: 1px;
+    margin-top: 81px;
     display: block; 
-    margin-left: 8%;
+    border-radius: 50%;
+    margin-left: 2px;
 }
 
 @media (max-width: 767px) {
@@ -92,21 +100,4 @@
   background-color: #dfff50;
 }
 
-/* Add this CSS to your existing styles */
-.download-icon {
-  padding-left: 1.6vw;
-  cursor: pointer;
-  transition: transform 0.3s ease; /* Add a smooth transition effect */
-}
 
-.download-icon:hover {
-  transform: translateY(-3px); /* Adjust the distance the button moves on hover */
-}
-
-
-.arrow-img{
-  width: 250px;
-  height: 250px;
-  margin-left: 250px;
-  margin-top: -90px;
-}

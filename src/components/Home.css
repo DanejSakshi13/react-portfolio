@@ -1,6 +1,6 @@
 .home-section{
     background-color: black;
-    height: 110vh;
+    height: 120vh;
 }
 
 .developer-container {
@@ -17,44 +17,103 @@
 }
 
 .developer, .designer{
-    color: #dfff50;
+    color: #ffffff;
     font-family: Lexend Deca;
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight :400;
-    margin-top: 120px;
     text-align: center;
     z-index: 2;
 }
 
+.developer{
+    margin-top: 10px;
+}
+.designer {
+    font-family: Lexend Deca;
+    color: #ffffff;
+    position: absolute; /* Position the element absolutely */
+    font-size: 4.5vw;
+    margin-top: 15px;
+}
 
 .code-box-intro {
     width: 62%;
-    height: 20vw;
+    height: 22vw;
     font-size: 1.1vw;
-    background-color: #212121;
+    background-color: #000000;
     border: 1px solid white;
-    color: #ffffff;
+    color: #86e924;
     margin-left: 19%;
     text-align: left;
     border-radius: 10px;
-    box-shadow: 0 0 50px 1px #dfff50;
+    /* box-shadow: 0 0 50px 1px #86e924; */
     padding-left: 15px;
     margin-top: 50px;
     transition: box-shadow 0.3s ease-in-out; /* Add transition for smooth hover effect */
+    z-index: 1;
 }
 
 .code-box-intro:hover {
-    box-shadow: 0 0 100px 2px #dfff50; /* Adjust the hover box shadow as per your preference */
-}
-
-.desginer{
-    color: #dfff50;
+    /* box-shadow: 0 0 100px 2px #dfff50; Adjust the hover box shadow as per your preference */
 }
 
 
-.carousel-section{
-    width: 400px;
-    height: 380px;
-    margin-left: 125px;
+
+
+
+.mobile{
+    width: 45%;
+    height: 70%;
+    margin-top: 7%;
+    margin-right: 100px;
+}
+
+
+.imacui{
     margin-top: 20px;
+    width: 80%;
+    height: 70%;
+    margin-left: 100px;
+    z-index: -1;
 }
+
+
+/* ------------------ */
+
+.home-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .imac-col {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .imac-container {
+    position: relative;
+    width: 80%;
+    height: 90%;
+    transition: width 1s ease-in-out, justify-content 1s ease-in-out;
+  }
+  
+  .imac-container.small {
+    width: 50%;
+  }
+  
+  .mobile-col {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .mobile-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .mobile-container.visible {
+    opacity: 1;
+  }
+  
