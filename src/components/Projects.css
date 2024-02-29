@@ -1,6 +1,7 @@
 .main {
     background-color: black;
-    height: 140vh;
+    height: 100vh;
+    /* margin-top: 500px; */
 }
 
 .heading {
@@ -13,10 +14,10 @@
     padding-top: 100px;
     margin-block-start: 0;
     margin-block-end: 0;
-    color: #dfff50;
+    color: #ffffff;
 }
 
-.cards1,
+/* .cards1,
 .cards2 {
     margin-top: 4%;
     margin-left:6%;
@@ -29,9 +30,9 @@
     background-color: #212121;;
     border: none;
     /* box-shadow: 0 0 15px 1px rgba(132, 132, 132, 0.6); */
-}
+/* } */
 
-.cards2 .card {
+/* .cards2 .card {
     width: 22vw;
     height: 30vh;
     perspective: 1000px;
@@ -86,10 +87,9 @@
     width:21.8vw;
     height: 40vh;
     /* margin-top: -50px; */
-}
+/* } */
 
-
-.card-front img {
+/* .card-front img {
     margin-top: -3.6vh;
     padding: 0;
     border-radius: 4px;
@@ -125,4 +125,18 @@
 
 .cards1 .card-front h4{
     margin: 0;
+} */ 
+
+
+.mac-mini-div{
+    width: 80%;
+    height: 85%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 13%;
+}
+
+.mac-img{
+    width: 100%;
+    height: 100%;
 }

@@ -10,39 +10,29 @@ import mobileui from "../images/mobileui.png";
 import imacui from "../images/imac.png";
 
 export default function Home() {
-  const [isDisplayed, setIsDisplayed] = useState(false);
-  const [imacColSpan, setImacColSpan] = useState(24);
-  const [mobileColSpan, setMobileColSpan] = useState(0);
 
-  useEffect(() => {
-    // Display the mobile UI and designer heading after a delay
-    const timeout = setTimeout(() => {
-      setIsDisplayed(true);
-      setImacColSpan(12);
-      setMobileColSpan(12);
-    }, 2000); // Adjust the delay as needed
-
-    return () => clearTimeout(timeout);
-  }, []);
 
   return (
-    <div className={`home-section ${isDisplayed ? 'shifted' : ''}`}>
+    <div className="home-section">
       <NavbarComponent />
       <Row className="main-row">
-        <Col span={imacColSpan} className="imac-col">
-          <div className={`imac-container ${isDisplayed ? 'small' : ''}`}>
-            <h1 className="developer">{"<developer>"}</h1>
+        <Col span={16} className="imac-col">
+
+          <h1 className="developer">{"<developer>"}</h1>
+
+          <div className="mac-div">
             <img src={imacui} alt="" className="imacui" />
           </div>
+
         </Col>
-        {isDisplayed && (
-          <Col span={mobileColSpan} className="mobile-col">
-            <div className="mobile-container">
-              <img src={mobileui} alt="" className="mobile" />
-              <h1 className="designer">designer</h1>
-            </div>
-          </Col>
-        )}
+
+        <Col span={6} className="mobile-col">
+          <div className="mob-div">
+            <img src={mobileui} alt="" className="mobile" />
+          </div>
+          <h1 className="designer">designer</h1>
+        </Col>
+
       </Row>
     </div>
   );

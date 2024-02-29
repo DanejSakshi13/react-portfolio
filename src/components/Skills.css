@@ -1,8 +1,8 @@
 .main-section{
     height: 115vh;
     background-color: rgb(0, 0, 0);
-    margin-top: 20vw;
-    padding-top: 4%;
+    margin-top: 41vw;
+    padding-top: 15%;
 }
 .skills-heading{
     font-family: League Spartan;
@@ -13,10 +13,12 @@
     padding-left: 8%;
     margin-block-start: 0;
     margin-block-end: 0;
-    color: #dfff50;
+    color: #ffffff;
 }
 
 .col{
+    font-family: Lexend Deca;
+
     background-color:  #212121;
     height: 45vh;
     margin-left: 3vw;
@@ -33,9 +35,10 @@
 
 .what-skill{
     padding-left: 1vw;
-    color: #dfff50;
+    color: #ffffff;
     padding-top: 1vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    text-align: left;
 }
 
 .skill{
@@ -50,6 +53,7 @@
     margin-top: 1.5vh;
     padding-left: 0.7vw;
     font-size: 1vw;
+    position: relative;
 }
 
 

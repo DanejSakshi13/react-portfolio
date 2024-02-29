@@ -8,13 +8,47 @@ import paletteUI from "../images/paletteUI.png";
 import palettelogo from "../images/palletepros.jpeg";
 import podcashh from "../images/podcashh.png";
 import medi from "../images/medibridge.jpeg";
+import imac from "../images/macbg.png";
 
-export default function Projects() {
+const Projects = () => {
     return (
         <div className="main">
-            <h1 className="heading">projects</h1>
+            <Row>
+              <Col span={12}>
+              <h1 className="heading">projects</h1>
+              </Col>  
+              <Col span={12}>
+              <div className="mac-mini-div">
+                <img src={imac} alt="" className="mac-img" />
+            </div>
+              </Col>
+            </Row>
+            
+            
+        </div>
+    )
+};
+export default Projects;
 
-            <Row className="cards1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+<Row className="cards1">
                 <Col span={8}>
                     <Card className="card">
                         <div className="card-content">
@@ -123,8 +157,4 @@ export default function Projects() {
                         </div>
                     </Card>
                 </Col>
-            </Row>
-
-        </div>
-    )
-}
+            </Row>*/

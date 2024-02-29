@@ -43,12 +43,14 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
+    font-family: Lexend Deca;
 }
 
 
 .count-digits{
     color: white;
+    font-family: League Spartan;
 }
 
 

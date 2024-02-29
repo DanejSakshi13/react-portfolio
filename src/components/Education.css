@@ -20,10 +20,18 @@
 }
 
 .col-heading-education{
-    color: #dfff50;
+    color: #ffffff;
 }
 
 
-h4,h5,h3,h1,p{
+h6,h4,h5,h3,h1,p{
     text-align: left;
+    font-family: Lexend Deca;
+
+}
+
+
+.timeline-div{
+    width: 70%;
+    margin-left: 14%;
 }

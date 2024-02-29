@@ -11,10 +11,9 @@ export default function Hire() {
             <Row>
                 <Col span={12}>  <h1 className="hire-me-heading">let's get in touch</h1>
                 <div className="circle">
-                <p className="hire-me-ripple">hire me</p>
+                <a href="mailto:sakshi1314.d@gmail.com" className="hire-me-ripple">Hire me</a>
                 </div>
                 </Col>
-
                 <Col span={12}> </Col>
             </Row>
         </div>
@@ -41,18 +40,3 @@ export default function Hire() {
 
 
 
-
-
-
-
-
-
-{/* <h1 className="hire-me-heading">connect with me</h1>
-            <form>
-                <input className="inputfields" type="email" name="email" placeholder="email" />
-                <input className="inputfields" type="text" name="msg" placeholder="message" />
-                <button className="submit-btn"  type="submit" placeholder="Stay connected">
-                Connect
-                <FontAwesomeIcon icon={faPlay} className="play-icon"/>
-                    </button> /
-            </form> */}

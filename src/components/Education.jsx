@@ -7,9 +7,11 @@ import "./Education.css";
 
 export default function Education() {
     return (
-        <Row className="main">
+        <Row className="main">                <h1 className="col-heading-education">academic overview</h1>
+
             <Col span={24} className="education">
-                <h1 className="col-heading-education">academic overview</h1>
+
+                <div className="timeline-div">
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -18,11 +20,11 @@ export default function Education() {
                         iconStyle={{ background: '#212121', color: '#fff', boxShadow: ' 1px 0 100px 15px rgba(255, 255, 255, 0.6)', border: '4px solid white' }}
                         icon={<FontAwesomeIcon icon={faSchool} />}
                     >
-                        <h4 className="vertical-timeline-element-title">Rasbihari International school</h4>
+                        <h5 className="vertical-timeline-element-title">Rasbihari International school</h5>
                         <p style={{color:"#dfff50"}}>
                             SSC Percentage : 88.80%
                         </p>
-                        <h5>2019</h5>
+                        <h6>2019</h6>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -32,11 +34,11 @@ export default function Education() {
                         icon={<FontAwesomeIcon icon={faBuildingColumns} />}
 
                     >
-                        <h4 className="vertical-timeline-element-title">H.P.T. Arts & R.Y.K. Science Junior College</h4>
+                        <h5 className="vertical-timeline-element-title">H.P.T. Arts & R.Y.K. Science Junior College</h5>
                         <p style={{color:"#dfff50"}}>
                             HSC Percentage : 86.67%
                         </p>
-                        <h5>2021</h5>
+                        <h6>2021</h6>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -46,11 +48,11 @@ export default function Education() {
                         icon={<FontAwesomeIcon icon={faGraduationCap} />}
 
                     >
-                        <h4 className="vertical-timeline-element-title">K. K. Wagh Institute of Engineering Education & Research</h4>
+                        <h5 className="vertical-timeline-element-title">K. K. Wagh Institute of Engineering Education & Research</h5>
                         <p style={{color:"#dfff50"}}>
                             Avg CGPA : 9.00
                         </p>
-                        <h5>2021-2025</h5>
+                        <h6>2021-2025</h6>
                         {/* <p>
                             Course work : Data Structures and Algorithms, Object Oriented Programming, Database Management
 System, Human Computer Interface, Blockchain technology
@@ -64,10 +66,10 @@ System, Human Computer Interface, Blockchain technology
                         icon={<FontAwesomeIcon icon={faBriefcase} />}
 
                     >
-                        <h4>Homobliss - Evolving Minds</h4>
+                        <h5>Homobliss - Evolving Minds</h5>
                         <p><span style={{ fontStyle: 'italic' }}>Feb 2023 - Nov 2023 </span> : <span style={{ color: '#dfff50' }}>FrontEnd Web Dev Intern</span></p>
                         <p><span style={{ fontStyle: 'italic' }}>Nov 2023 - Present </span> : <span style={{ color: '#dfff50' }}>Fullstack Web Dev Intern</span></p>
-                        <h5>Feb 2023 - Present</h5>
+                        <h6>Feb 2023 - Present</h6>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
@@ -75,11 +77,11 @@ System, Human Computer Interface, Blockchain technology
                         contentArrowStyle={{ borderRight: '7px solid  #212121' }}
                         iconStyle={{ background: '#212121', color: '#fff', boxShadow: ' 1px 0 100px 15px rgba(255, 255, 255, 0.6)', border: '4px solid white' }}
                     >
-                        <h2 style={{ color: '#dfff50' }}>Imagine Your Logo Here!</h2>
+                        <h5 style={{ color: '#dfff50' }}>Imagine Your Logo Here!</h5>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
 
-
+                </div>
             </Col>
 
         </Row>
