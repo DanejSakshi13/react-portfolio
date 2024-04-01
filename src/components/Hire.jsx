@@ -11,7 +11,7 @@ export default function Hire() {
             <Row>
                 <Col span={12}>  <h1 className="hire-me-heading">let's get in touch</h1>
                 <div className="circle">
-                <a href="mailto:sakshi1314.d@gmail.com" className="hire-me-ripple">Hire me</a>
+                <a href="mailto:sakshi1314.d@gmail.com" className="hire-me-ripple">hire me</a>
                 </div>
                 </Col>
                 <Col span={12}> </Col>

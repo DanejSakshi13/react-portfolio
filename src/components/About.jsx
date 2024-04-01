@@ -6,28 +6,41 @@ import Profile from "../images/profile.png";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
+
+
+    const letterStyles = {
+        M: { color: '#00ED64' },
+        E: { color: 'white' },
+        R: { color: '#61DAFB' },
+        N: { color: '#8BC500' }
+    };
+
     return (
         <Row className="background">
-            <Col span={14}>
-
+            <Col span={12}>
+                <h1 className="about-me">about me</h1>
                 <div className="white-card">
-                    <h1 className="about-me">about me</h1>
-                    <p className="tagline">I'm a full stack web developer and a web designer. </p>
-                    <p className="desc"> I bring digital experiences to life through
+                    <p className="desc welcome" style={{ color:'white', paddingLeft:'10px' }}> Welcome to my portfolio!</p>
+                    <p className="tagline" style={{ display: 'inline' }}>
+                    I'm a {' '}
+                        <span style={letterStyles['M']}>M</span>
+                        <span style={letterStyles['E']}>E</span>
+                        <span style={letterStyles['R']}>R</span>
+                        <span style={letterStyles['N']}>N</span>
+                        {' '} stack developer and a web designer with a passion for bringing digital experiences to life
+                    </p>
+                    <p className="desc" style={{ display: 'inline', color:'white', fontSize:'1.4vw' }}>  through
                         <span className="highlight rainbow-highlight"> creativity </span> and
                         <span className="highlight rainbow-highlight"> code</span> .
-                        {/* <br />  Beyond development, I'm an avid artist. I'm driven to explore new ideas, constantly pushing 
-                              boundaries with a sense of curiosity and dedication. */}
-                        <br /> Welcome to my portfolio, where technology, design and exceptional execution define me</p>
-                    {/* <button className="resume-btn">Resume  
-                    <FontAwesomeIcon icon={faDownload} className="download-icon"/>
-                    </button> */}
+                    </p>
+
+                    {/* <p className="desc2">With a solid foundation in technical expertise and a keen understanding of user experience principles, I seamlessly blend creativity and code to craft immersive solutions.</p> */}
+
+                    
                 </div>
             </Col>
-            <Col span={10}>
-                <div className="image-background">
-                <img src={Profile} alt="" className="profile-img" />
-                </div>
+            <Col span={12}>
+
             </Col>
         </Row>
 
@@ -35,3 +48,16 @@ export default function About() {
 
     );
 };
+
+
+
+
+
+
+// where technology, design and exceptional execution define me.
+
+
+
+{/* <button className="resume-btn">Resume  
+                    <FontAwesomeIcon icon={faDownload} className="download-icon"/>
+                    </button> */}

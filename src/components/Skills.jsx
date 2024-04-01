@@ -49,16 +49,6 @@ export default function Skills() {
                     <Row className="skill git"><p>GitHub</p></Row>
                 </Col>
             </Row>
-            {/* <Row className="soft-skills">
-                <Row><h2 className="what-skill">Soft Skills</h2></Row>
-                <Row >
-                    <Col className="skill communi"><p>Good communication</p></Col>
-                    <Col className="skill creative"><p>Creative</p></Col>
-                    <Col className="skill growth"><p>Growth Mindset</p></Col>
-                    <Col className="skill adapt"><p>Adaptability</p></Col>
-                </Row>
-
-            </Row> */}
         </div>
     );
 }

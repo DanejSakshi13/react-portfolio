@@ -16,6 +16,7 @@ const Projects = () => {
             <Row>
               <Col span={12}>
               <h1 className="heading">projects</h1>
+              <p className="project-desc"></p>
               </Col>  
               <Col span={12}>
               <div className="mac-mini-div">

@@ -31,7 +31,8 @@ h1{
     background-color: #dfff50;
    margin-left: 70%;
     transform: translate(-50%, -50%);
-    font-family: 'League Spartan', sans-serif;
+    font-family: Lexend Deca;
+    font-size:18px;
   }
   
   .circle:before,

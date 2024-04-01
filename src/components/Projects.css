@@ -1,7 +1,6 @@
 .main {
     background-color: black;
     height: 100vh;
-    /* margin-top: 500px; */
 }
 
 .heading {
@@ -17,123 +16,13 @@
     color: #ffffff;
 }
 
-/* .cards1,
-.cards2 {
-    margin-top: 4%;
-    margin-left:6%;
-}
-
-.cards1 .card {
-    width: 22vw;
-    height: 55vh;
-    perspective: 1000px;
-    background-color: #212121;;
-    border: none;
-    /* box-shadow: 0 0 15px 1px rgba(132, 132, 132, 0.6); */
-/* } */
-
-/* .cards2 .card {
-    width: 22vw;
-    height: 30vh;
-    perspective: 1000px;
-    background-color: #212121;
-    border: none;
-}
-
-
-.card:hover .card-content {
-    transform: rotateY(180deg);
-}
-
-.card-content {
-    width: 100%;
-    height: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    transform-style: preserve-3d;
-    transition: transform 0.5s ease-in-out;
-    
-}
-
-.card-front,
-.card-back {
-    width: 118%;
-    height: 90%;
-    position: absolute;
-    backface-visibility: hidden;
-    color: #dfff50;
-}
-
-.card-back {
-    transform: rotateY(180deg);
-}
-
-
-.git-btn{
-    border-radius: 50px;
-    height: 40px;
-    width: 100px;
-    border: none;
-    background-color: #dfff50;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-
-.project-thumbnail {
-    width:21.8vw;
-    height: 40vh;
-    /* margin-top: -50px; */
-/* } */
-
-/* .card-front img {
-    margin-top: -3.6vh;
-    padding: 0;
-    border-radius: 4px;
-}
-
-
-.card-front h4{
-    padding-top: 1%;
-    color: whitesmoke;
-    padding-left: 2%;
-}
-
-.card-front p{
-    color: whitesmoke;
-    padding-left: 2%;
-}
-
-.card-back p{
-    text-align: center;
-    padding: 0px 5px 0px 5px;
-    color: whitesmoke;
-}
-
-.card-back a{
-    color: #dfff50;
-    text-decoration: none;
-}
-
-.cards2 .card-front h4, .cards2 .card-front p{
-    margin: 0;
-    padding-left: 2%;    
-}
-
-.cards1 .card-front h4{
-    margin: 0;
-} */ 
-
 
 .mac-mini-div{
     width: 80%;
-    height: 85%;
+    height: 80%;
     float: right;
     margin-right: 10%;
-    margin-top: 13%;
+    margin-top: 15%;
 }
 
 .mac-img{

@@ -15,9 +15,9 @@ export default function Education() {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#212121', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #212121' }}
-                        iconStyle={{ background: '#212121', color: '#fff', boxShadow: ' 1px 0 100px 15px rgba(255, 255, 255, 0.6)', border: '4px solid white' }}
+                        contentStyle={{ background: '#161616', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #161616' }}
+                        iconStyle={{ background: '#161616', color: '#fff', boxShadow: ' 0px 0px 20px 10px rgba(255, 255, 255, 0.4)', border: '4px solid white' }}
                         icon={<FontAwesomeIcon icon={faSchool} />}
                     >
                         <h5 className="vertical-timeline-element-title">Rasbihari International school</h5>
@@ -28,9 +28,9 @@ export default function Education() {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#212121', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #212121' }}
-                        iconStyle={{ background: '#212121', color: '#fff', boxShadow: ' 1px 0 100px 15px rgba(255, 255, 255, 0.6)', border: '4px solid white' }}
+                        contentStyle={{ background: '#161616', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #161616' }}
+                        iconStyle={{ background: '#161616', color: '#fff', boxShadow: ' 0px 0px 20px 10px rgba(255, 255, 255, 0.4)', border: '4px solid white' }}
                         icon={<FontAwesomeIcon icon={faBuildingColumns} />}
 
                     >
@@ -42,9 +42,9 @@ export default function Education() {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#212121', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #212121' }}
-                        iconStyle={{ background: '#212121', color: '#fff', boxShadow: ' 1px 0 100px 15px rgba(255, 255, 255, 0.6)', border: '4px solid white' }}
+                        contentStyle={{ background: '#161616', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #161616' }}
+                        iconStyle={{ background: '#161616', color: '#fff', boxShadow: ' 0px 0px 20px 10px rgba(255, 255, 255, 0.4)', border: '4px solid white' }}
                         icon={<FontAwesomeIcon icon={faGraduationCap} />}
 
                     >
@@ -60,9 +60,9 @@ System, Human Computer Interface, Blockchain technology
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#212121', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #212121' }}
-                        iconStyle={{ background: '#212121', color: '#fff', boxShadow: ' 1px 0 100px 15px rgba(255, 255, 255, 0.6)', border: '4px solid white' }}
+                        contentStyle={{ background: '#161616', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #161616' }}
+                        iconStyle={{ background: '#161616', color: '#fff', boxShadow: ' 0px 0px 20px 10px rgba(255, 255, 255, 0.4)', border: '4px solid white' }}
                         icon={<FontAwesomeIcon icon={faBriefcase} />}
 
                     >
@@ -73,9 +73,9 @@ System, Human Computer Interface, Blockchain technology
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: '#212121', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #212121' }}
-                        iconStyle={{ background: '#212121', color: '#fff', boxShadow: ' 1px 0 100px 15px rgba(255, 255, 255, 0.6)', border: '4px solid white' }}
+                        contentStyle={{ background: '#161616', color: '#fff' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #161616' }}
+                        iconStyle={{ background: '#161616', color: '#fff', boxShadow: ' 0px 0px 20px 10px rgba(255, 255, 255, 0.4)', border: '4px solid white' }}
                     >
                         <h5 style={{ color: '#dfff50' }}>Imagine Your Logo Here!</h5>
                     </VerticalTimelineElement>
