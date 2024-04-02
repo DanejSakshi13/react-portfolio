@@ -22,7 +22,9 @@ export default function Home() {
           </div>
         </Col>
         <Col span={10}>
+          <div>
           <img src={macBook} alt="" className="mac-book"/>
+          </div>
         </Col>
       </Row>
     </div>
