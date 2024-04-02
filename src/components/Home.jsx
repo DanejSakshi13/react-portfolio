@@ -1,39 +1,22 @@
-import { Col, Row } from "antd";
 import React from "react";
-import "./Home.css";
-// import CustomCursor from "./CustomCursor";
 import NavbarComponent from "./Navbar";
-import mobileui from "../images/mobileui.png";
-import imacui from "../images/imac.png";
+import "./Home.css";
+import bgVideo from "../images/bgvideo.mp4";
 
 export default function Home() {
-
-
   return (
     <div className="home-section">
-      <NavbarComponent />
-      <Row className="main-row">
-        <Col span={16} className="imac-col">
-
-          <h1 className="developer">{"<developer>"}</h1>
-
-          <div className="mac-div">
-            <img src={imacui} alt="" className="imacui" />
-          </div>
-
-        </Col>
-
-        <Col span={6} className="mobile-col">
-          <div className="mob-div">
-            <img src={mobileui} alt="" className="mobile" />
-          </div>
-          <h1 className="designer">designer</h1>
-        </Col>
-
-      </Row>
+    <NavbarComponent />
+   
+      <div className="video-container">
+        <video autoPlay loop muted className="background-video">
+          <source src={bgVideo} type="video/mp4" className="main-video"/>
+        </video>
+      </div>
     </div>
   );
 }
+
 
 
 
