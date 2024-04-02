@@ -1,10 +1,7 @@
 import { Col, Row } from "antd";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Home.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
 // import CustomCursor from "./CustomCursor";
-import flowColors from "../images/colorsFlowing.png";
 import NavbarComponent from "./Navbar";
 import mobileui from "../images/mobileui.png";
 import imacui from "../images/imac.png";

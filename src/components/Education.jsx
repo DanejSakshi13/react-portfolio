@@ -7,10 +7,10 @@ import "./Education.css";
 
 export default function Education() {
     return (
-        <Row className="main">                <h1 className="col-heading-education">academic overview</h1>
+        <Row className="main">                
+        <h1 className="col-heading-education">academic overview</h1>
 
             <Col span={24} className="education">
-
                 <div className="timeline-div">
                 <VerticalTimeline>
                     <VerticalTimelineElement

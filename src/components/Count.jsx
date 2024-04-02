@@ -43,7 +43,7 @@ export default function Count() {
             <h1 className="count-digits">
               <CountUp start={startCounting ? 0 : null} end={150} duration={6} separator="," />+
             </h1>
-            <h5>DSA puestions solved</h5>
+            <h5>DSA questions solved</h5>
           </Col>
           <Col span={4} className="data">
             <h1 className="count-digits">
