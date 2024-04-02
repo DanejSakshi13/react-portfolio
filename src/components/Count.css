@@ -1,14 +1,17 @@
 .count{
-    height: 37vh;
+    height: 50vh;
     background-size: cover;
     position: relative;
+    padding-top: 5vh;
 }
 .stats{
-    background-image: url("../images/dot.png");
-    height: 37vh;
+    /* background-image: url("../images/dot.png"); */
+    background-color: black;
+    height: 50vh;
     background-size: cover;
     position: relative;
     width: 100%;
+    padding-top: 8vh;
 }
 
 .stats-row{
@@ -23,7 +26,7 @@
     width: 30px;
     height: 70px;
     margin-left: 13%;
-    color: #dfff50;
+    color: #ffffff;
     font-size: 2.3vw;
     text-align: center;
     /* margin-top: 95px; */ 
@@ -49,7 +52,7 @@
 
 
 .count-digits{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: League Spartan;
 }
 

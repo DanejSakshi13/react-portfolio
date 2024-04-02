@@ -16,9 +16,9 @@ const NavbarComponent = () => {
           <Nav.Link href="#">home</Nav.Link>
           <Nav.Link href="/projects">projects</Nav.Link>
           <Nav.Link href="/about">about</Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/sakshi-danej/"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link>
-          <Nav.Link href="https://twitter.com/SakshiDanej"><FontAwesomeIcon icon={faXTwitter} /></Nav.Link>
-          <Nav.Link href="https://github.com/DanejSakshi13"><FontAwesomeIcon icon={faGithub} /></Nav.Link>
+          {/* <Nav.Link href="https://www.linkedin.com/in/sakshi-danej/"><FontAwesomeIcon icon={faLinkedin} /></Nav.Link> */}
+          {/* <Nav.Link href="https://twitter.com/SakshiDanej"><FontAwesomeIcon icon={faXTwitter} /></Nav.Link> */}
+          {/* <Nav.Link href="https://github.com/DanejSakshi13"><FontAwesomeIcon icon={faGithub} /></Nav.Link> */}
           <Nav.Link href="mailto:sakshi1314.d@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></Nav.Link>
         </Nav>
       </Navbar.Collapse>

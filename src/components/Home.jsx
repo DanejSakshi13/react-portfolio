@@ -1,22 +1,33 @@
 import React from "react";
 import NavbarComponent from "./Navbar";
 import "./Home.css";
-import bgVideo from "../images/bgvideo.mp4";
+import { Col, Row } from "antd";
+import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import macBook from "../images/macBook.png";
 
 export default function Home() {
   return (
     <div className="home-section">
-    <NavbarComponent />
-   
-      <div className="video-container">
-        <video autoPlay loop muted className="background-video">
-          <source src={bgVideo} type="video/mp4" className="main-video"/>
-        </video>
-      </div>
+      <NavbarComponent />
+      <Row>
+        <Col span={14}>
+          <h1 className="my-name">sakshi ganesh danej</h1>
+          <h4 className="desc">fullStack web developer</h4>
+          <div className="socials">
+          <div className="round-button"><a href="https://www.linkedin.com/in/sakshi-danej/"><FontAwesomeIcon icon={faLinkedin} className="icon"/></a></div>
+          <div className="round-button"><a href="https://twitter.com/SakshiDanej"><FontAwesomeIcon icon={faXTwitter} className="icon"/></a></div>
+          <div className="round-button"><a href="https://github.com/DanejSakshi13"><FontAwesomeIcon icon={faGithub} className="icon"/></a></div>
+          </div>
+        </Col>
+        <Col span={10}>
+          <img src={macBook} alt="" className="mac-book"/>
+        </Col>
+      </Row>
     </div>
   );
 }
-
 
 
 

@@ -6,7 +6,29 @@ import Profile from "../images/profile.png";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
+    return (
+        <div className="about-me">
+            <h1 className="about-me-heading">about me</h1>
+            <Row className="outline-div">
+                <Col span={8}>
+                    <div className="avtaar"></div>
+                </Col>
+                <Col span={16}>
+                    <div className="white-card"></div>
+                </Col>
+            </Row>
+        </div>
 
+
+
+    );
+};
+
+
+
+
+
+/* 
 
     const letterStyles = {
         M: { color: '#00ED64' },
@@ -14,13 +36,7 @@ export default function About() {
         R: { color: '#61DAFB' },
         N: { color: '#8BC500' }
     };
-
-    return (
-        <Row className="background">
-            <Col span={12}>
-                <h1 className="about-me">about me</h1>
-                <div className="white-card">
-                    <p className="desc welcome" style={{ color:'white', paddingLeft:'10px' }}> Welcome to my portfolio!</p>
+<p className="desc welcome" style={{ color:'white', paddingLeft:'10px' }}> Welcome to my portfolio!</p>
                     <p className="tagline" style={{ display: 'inline' }}>
                     I'm a {' '}
                         <span style={letterStyles['M']}>M</span>
@@ -33,31 +49,4 @@ export default function About() {
                         <span className="highlight rainbow-highlight"> creativity </span> and
                         <span className="highlight rainbow-highlight"> code</span> .
                     </p>
-
-                    {/* <p className="desc2">With a solid foundation in technical expertise and a keen understanding of user experience principles, I seamlessly blend creativity and code to craft immersive solutions.</p> */}
-
-                    
-                </div>
-            </Col>
-            <Col span={12}>
-
-            </Col>
-        </Row>
-
-
-
-    );
-};
-
-
-
-
-
-
-// where technology, design and exceptional execution define me.
-
-
-
-{/* <button className="resume-btn">Resume  
-                    <FontAwesomeIcon icon={faDownload} className="download-icon"/>
-                    </button> */}
+                    */

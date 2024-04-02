@@ -1,12 +1,50 @@
-.home-section{
-    background-color: black;
+.home-section {
+    background-color: rgb(255, 255, 255);
     height: 100vh;
+    position: relative; 
 }
 
-.main-video{
-    height: 100%;
+
+.my-name {
+    color: rgb(0, 0, 0);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 35vh;
+    margin-left: 5vw;
 }
 
-.video-container{
-    height: 50vh;
+.desc{
+    color: black;
+    font-family: Lexend Deca;
+    margin-left: 5vw;
+}
+
+.mac-book{
+    width: 75%;
+    height: 75%;
+    margin-top: 20vh;
+    margin-right: 5vw;
+}
+
+.round-button{
+    width: 3vw;
+    height: 6vh;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.icon{
+    color: white;
+    width: 70%;
+    height: 70%;
+    padding-top:0.8vh;
+}
+
+.socials{
+    width:15vw;
+    display: flex;
+    margin-left: 3.5vw;
+    margin-top: 3vh;
+    justify-content: space-evenly;
 }
