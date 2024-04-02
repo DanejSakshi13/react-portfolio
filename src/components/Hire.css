@@ -1,5 +1,5 @@
 .hire-main-section {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     height: 90vh;
     width: 100vw;
 }
@@ -11,7 +11,7 @@ h1{
 
 .hire-me-heading{
     font-family: League Spartan;
-    color: #ffffff;
+    color: black;
     padding-left: 7%;
     padding-top: 5%;
     margin-block-start: 0;
@@ -29,7 +29,7 @@ h1{
     width: 100px;
     border-radius: 50%;
     background-color: #dfff50;
-   margin-left: 70%;
+    margin-left: 70%;
     transform: translate(-50%, -50%);
     font-family: Lexend Deca;
     font-size:18px;

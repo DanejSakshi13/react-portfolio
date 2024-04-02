@@ -14,15 +14,25 @@ const Projects = () => {
     return (
         <div className="main">
             <Row>
+
               <Col span={12}>
               <h1 className="heading">projects</h1>
               <p className="project-desc"></p>
-              </Col>  
+              </Col> 
+
               <Col span={12}>
-              <div className="mac-mini-div">
-                <img src={imac} alt="" className="mac-img" />
-            </div>
+                <Row>
+                    <div className="mac-mini-div">
+                        <img src={imac} alt="" className="mac-img" />
+                        
+                        {/* <div className="imageSlider">
+
+                        </div> */}
+                    </div>
+                </Row>
+                
               </Col>
+
             </Row>
             
             

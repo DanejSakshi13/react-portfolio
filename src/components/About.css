@@ -5,6 +5,7 @@
     margin:2% 15%;
     border-radius: 20px;
     border: 2px black solid;
+    margin-top:2.8vh;
 }
 
 .outline-div{
@@ -32,7 +33,7 @@
 .avtaar{
   background-color: #ffffff;
     height:50vh;
-    width:10vw;
+    width: 30vw;
     border: 2px black solid;
     margin-left: 10vw;
     margin-top:2.8vh;
