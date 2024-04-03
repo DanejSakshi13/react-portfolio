@@ -9,8 +9,22 @@ import palettelogo from "../images/palletepros.jpeg";
 import podcashh from "../images/podcashh.png";
 import medi from "../images/medibridge.jpeg";
 import imac from "../images/macbg.png";
+import {Swiper,SwiperSlide} from "swiper/react"
+import {EffectCoverflow, Pagination, Navigation} from "swiper";
+import project1 from "../images/project1.png"
+import project2 from "../images/project2.png"
+import project3 from "../images/project3.png"
+import project4 from "../images/project4.jpg"
 
-const Projects = () => {
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+
+
+const  Projects = () => {
     return (
         <div className="main">
             <Row>
@@ -25,9 +39,70 @@ const Projects = () => {
                     <div className="mac-mini-div">
                         <img src={imac} alt="" className="mac-img" />
                         
-                        {/* <div className="imageSlider">
 
-                        </div> */}
+
+                        <div className="imageSlider">
+                            <Swiper
+                                effect={'coverflow'}
+                                grabCursor={true}
+                                centeredSlides={true}
+                                loop={true}
+                                slidesPerView={'auto'}
+                                coverflowEffect={
+                                    {
+                                        rotate: 0,
+                                        stretch: 0,
+                                        depth: 100,
+                                        modifier: 2.5
+                            
+                                    }}
+                                    pagination={{el:'.swiper-pagination',clickable:true}}
+                                    navigation={{
+                                        nextEl: '.swiper-button-next',
+                                        prevEl: '.swiper-button-prev',
+                                        clickable: true,
+                                    }}
+                                    modules={[EffectCoverflow, Pagination,Navigation]}
+                                    className="swiper_container"
+                            >
+                                <SwiperSlide>
+                                    <div>
+                                    <img src={project1} alt="img1"/>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div>
+                                    <img src={project2} alt="img2"/>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                <img src={project3} alt="img3"/>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                <img src={project4} alt="img4"/>
+                                </SwiperSlide>
+
+                                 <div className="slider-controler">
+                                        <div className="swiper-button-prev slider-arrow">
+                                            <ion-icon name="arrow-back-outline"> </ion-icon>
+                                        </div>
+
+                                        <div className="swiper-button-next slider-arrow">
+                                            <ion-icon name="arrow-forward-outline"> </ion-icon>
+                                        </div>
+
+                                        <div className="swiper-pagination"></div>
+                                 </div>
+
+                            </Swiper>
+                        </div>
+
+
+
+
                     </div>
                 </Row>
                 
