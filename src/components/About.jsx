@@ -10,10 +10,10 @@ export default function About() {
         <div className="about-me">
             <h1 className="about-me-heading">about me</h1>
             <Row className="outline-div">
-                <Col span={8}>
+                <Col span={7}>
                     <div className="avtaar"></div>
                 </Col>
-                <Col span={16}>
+                <Col span={17}>
                     <div className="white-card"></div>
                 </Col>
             </Row>

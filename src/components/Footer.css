@@ -1,11 +1,12 @@
 .footer-section {
     width: 100vw;
     height: 12vh;
-    background-color: #dfff50;
+    background-color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: left;
+    color: white;
   }
   
   .left-content {

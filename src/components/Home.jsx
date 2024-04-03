@@ -14,7 +14,7 @@ export default function Home() {
       <Row>
         <Col span={14}>
           <h1 className="my-name">sakshi ganesh danej</h1>
-          <h4 className="desc">fullStack web developer</h4>
+          <h4 className="desc">fullstack web developer</h4>
           <div className="socials">
           <div className="round-button"><a href="https://www.linkedin.com/in/sakshi-danej/"><FontAwesomeIcon icon={faLinkedin} className="icon"/></a></div>
           <div className="round-button"><a href="https://twitter.com/SakshiDanej"><FontAwesomeIcon icon={faXTwitter} className="icon"/></a></div>
