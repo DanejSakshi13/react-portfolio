@@ -6,6 +6,9 @@
     border-radius: 20px;
     border: 2px black solid;
     margin-top:2.8vh;
+    padding: 20px;
+    font-size: 1.4vw;
+    box-shadow: 10px 14px 1px rgba(0, 0, 0,1);
 }
 
 .outline-div{
@@ -40,56 +43,6 @@
     border-radius: 20px;
 
 }
-
-
-
-.desc{
-  color: white;
-}
-
-.tagline{
-  color: white;
-}
-
-.welcome,.tagline{
-  font-size: 1.4vw;
-}
-
-.desc2{
-  padding-top: 15px;
-  color: white;
-}
-
-.rainbow-highlight {
-    background: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #00ff80, #0080ff, #8000ff, #ff0080);
-    background-size: 600% 600%;
-    animation: rainbow 5s linear infinite;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    display: inline;
-    font-weight: bold;
-    font-size: 1.4vw;
-  }
-  
-  @keyframes rainbow {
-    0% {
-      background-position: 0% 50%;
-    }
-    100% {
-      background-position: 100% 50%;
-    }
-  }
-
-
-
-
-@media (max-width: 767px) {
-    .profile-img {
-        display: none; 
-    }
-}
-
 
 
 

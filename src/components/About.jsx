@@ -14,7 +14,17 @@ export default function About() {
                     <div className="avtaar"></div>
                 </Col>
                 <Col span={17}>
-                    <div className="white-card"></div>
+                    <div className="white-card">
+                        <p>Hello, I'm Sakshi, a passionate MERN stack developer with a creative flair.
+                             Combining my love for technology with my artistic sensibilities, I strive
+                              to bring innovation and beauty to every project I undertake.
+                           With a keen eye for detail and a commitment to delivering high-quality solutions, I
+                              ensure that every aspect of my work reflects excellence and precision.
+                            Beyond coding, I am an artist at heart, I find joy in bringing my imagination
+                              to life on canvas.
+                            With a passion for learning and a knack for execution, I thrive in 
+                            environments where innovation and collaboration are valued. </p>
+                    </div>
                 </Col>
             </Row>
         </div>

@@ -1,7 +1,7 @@
 .main-section{
     height: 115vh;
     background-color: white;
-    margin-top: 42vw;
+    /* margin-top: 42vw; */
     padding-top: 15%;
 }
 .skills-heading{
@@ -13,7 +13,7 @@
     margin-block-start: 0;
     margin-block-end: 0;
     color: black;
-    margin-left: 10vw;
+    margin-left: 7vw;
 }
 
 .col{

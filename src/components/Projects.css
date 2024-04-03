@@ -17,19 +17,22 @@
 }
 
 
-.mac-mini-div{
+.mac-mini-div {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("../images/macbg.png");
+    background-repeat: no-repeat;
     width: 80%;
-    height: 80%;
-    float: right;
-    margin-right: 10%;
-    margin-top: 15%;
+    height: 85%;
+    margin-top: 15vh;
+    margin-left: 10vw;
 }
 
-.mac-img{
-    width: 100%;
-    height: 100%;
-}
-
-.imageSlider {
-
+.carousel {
+    margin-left: 0.5vw;
+    width: 31vw;
+    /* height: 20vh; */
+    margin-top: 1vh;
 }
