@@ -12,6 +12,7 @@ import Hire from './components/Hire';
 import Parallax from './components/Parallax';
 import FooterComponent from './components/Footer';
 import NavbarComponent from './components/Navbar';
+
 function App() {
   return (
     <div className="App">
