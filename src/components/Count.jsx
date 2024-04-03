@@ -31,7 +31,7 @@ export default function Count() {
 
   return (
     <div id="count-section" className="count">
-      <div className="stats">
+      
         <Row className="stats-row">
           <Col span={4} className="data">
             <h1 className="count-digits">
@@ -52,7 +52,7 @@ export default function Count() {
             <h5>programming languages</h5>
           </Col>
         </Row>
-      </div>
+      
     </div>
   );
 }

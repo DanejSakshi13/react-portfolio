@@ -23,7 +23,7 @@ export default function Home() {
             <div className="round-button"><a href="https://github.com/DanejSakshi13"><FontAwesomeIcon icon={faGithub} className="icon"/></a></div>
           </div>
         </Col>
-        <Col xs={24} sm={12} >
+        <Col xs={24} sm={12}>
           <div className="img-div">
             <img src={homeScreenPopGif} alt="Code Typing GIF" className="typing-gif" />
           </div>
@@ -109,7 +109,6 @@ useEffect(() => {
 
 
 */
-
 
 
 

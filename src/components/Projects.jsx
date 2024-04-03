@@ -2,13 +2,14 @@ import React from "react";
 import "./Projects.css";
 import { Card, Row, Col } from "antd";
 import ProjectCarousel from "./ProjectCarousel";
+import ProjectDescriptionCarousel from "./ProjectDescription";
 
 const Projects = () => {
     return (
         <Row className="projects">
             <Col span={12}>
                 <h1 className="heading">projects</h1>
-                <p className="project-desc"></p>
+                <div className="project-desc"><ProjectDescriptionCarousel/></div>
             </Col>
             <Col span={12}>
                 <div className="mac-mini-div">

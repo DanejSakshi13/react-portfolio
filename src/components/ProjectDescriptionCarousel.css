@@ -1,0 +1,19 @@
+.round-button{
+    width: 3em;
+    height: 3em;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.description{
+    margin-left: 5vw;
+}
+
+.buttonsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: max-content;
+    padding: 10px;
+    gap: 10px
+}
