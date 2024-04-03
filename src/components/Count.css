@@ -1,22 +1,15 @@
 .count{
     height: max-content;
     position: relative;
-<<<<<<< Updated upstream
     padding-top: 5vh;
     background-color: black;
     height: 50vh;
     background-size: cover;
     position: relative;
     width: 100%;
-    padding-top: 8vh;
-=======
-    background-color: black;
-    width: 100%;
-    margin-top: 10vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     align-items: center;
->>>>>>> Stashed changes
 }
 
 @media only screen and (max-width: 600px) {
@@ -28,14 +21,7 @@
         font-size: 0.9em;
     }
   }
-<<<<<<< Updated upstream
-  .count{
-    height:10vh
-  }
-} */
 
-=======
->>>>>>> Stashed changes
 
 .stats-row{
     align-items: center;

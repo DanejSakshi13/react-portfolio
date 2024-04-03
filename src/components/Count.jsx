@@ -31,10 +31,7 @@ export default function Count() {
 
   return (
     <div id="count-section" className="count">
-<<<<<<< Updated upstream
       
-=======
->>>>>>> Stashed changes
         <Row className="stats-row">
           <Col xs={24} sm={12} md={8} lg={6} xl={4} xxl={3} className="data">
             <h1 className="count-digits">
@@ -55,11 +52,7 @@ export default function Count() {
             <h5>programming languages</h5>
           </Col>
         </Row>
-<<<<<<< Updated upstream
       
     </div>
-=======
-      </div>
->>>>>>> Stashed changes
   );
 }
