@@ -10,7 +10,7 @@
     font-family: 'League Spartan', sans-serif;
     font-size: 70px;
     font-weight: bold;
-    margin-top: 35vh;
+    margin-top: 30%;
     margin-left: 5vw;
 }
 
@@ -28,23 +28,29 @@
 }
 
 .round-button{
-    width: 3vw;
-    height: 6vh;
+    width: 3em;
+    height: 3em;
     background-color: black;
     border-radius: 20px;
 }
 
 .icon{
     color: white;
-    width: 70%;
-    height: 70%;
-    padding-top:0.8vh;
+    width: 65%;
+    height: 65%;
+    padding-top:1vh;
 }
 
 .socials{
-    width:15vw;
+    width:30%;
     display: flex;
     margin-left: 3.5vw;
     margin-top: 3vh;
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .socials {
+    width:80%;
+  }
 }

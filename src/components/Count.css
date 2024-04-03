@@ -4,6 +4,15 @@
     position: relative;
     padding-top: 5vh;
 }
+
+/* @media only screen and (max-width: 600px) {
+  .stats {
+    height:10vh;
+  }
+  .count{
+    height:10vh
+  }
+} */
 .stats{
     /* background-image: url("../images/dot.png"); */
     background-color: black;
