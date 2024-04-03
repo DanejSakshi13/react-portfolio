@@ -1,3 +1,4 @@
+
 .navbar-brand-left {
   margin-right: auto;
   padding-left: 100px;
@@ -16,7 +17,7 @@
 }
 
 .navbar-dark .navbar-toggler-icon {
-  background-color: #dfff50;
+  background-color: transparent;
 }
 
 .navbar-right {
