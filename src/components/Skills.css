@@ -1,8 +1,8 @@
 .main-section{
-    height: 115vh;
+    height: max-content;
     background-color: white;
     /* margin-top: 42vw; */
-    padding-top: 15%;
+    padding: 10% 0% 10% 0%;
 }
 .skills-heading{
     font-family: League Spartan;
@@ -24,9 +24,7 @@
     margin-top: 2%;
     border-radius: 1vw;
     text-align: center;
-    justify-content: space-evenly;
     border: 2px solid black;
-    width: 100px;
 }
 
 .web-diagram{
@@ -46,22 +44,19 @@
 .skill{
     background-color: transparent;
     height: 4.5vh;
-    width: 4.2vw;
+    width: max-content;
     border: #dfff50 1px solid ;
     border-radius: 0.3vw;
     margin-left: 1vw;
     color: rgb(0, 0, 0);
-    padding-top: 0.4vh;
     margin-top: 1.5vh;
     padding-left: 0.7vw;
     font-size: 1vw;
     position: relative;
+    padding : 0.4vh 1vh 0.4vh 1vh;
+
 }
 
-.tech-stack-logo{
-    width: 100px;
-    height: 100px;
-}
 
 .prog-lang{
     margin-left: 1px;
@@ -72,31 +67,23 @@
 }
 
 .tailwind,.oracle{
-    width: 6vw;
     border: #ff5aba 1px solid;
 }
 
 .javascript, .express,.postman{
     border: #557dff 1px solid ;
-    width: 6vw;
 }
 
 .react, .node,.mysql,.creative{
-    width: 5.3vw;
     border: #60f3e4 1px solid ;
 }
 
-.mongodb{
-    width: 6.6vw;
-}
 
 .postgres,.adapt{
-    width: 7vw;
     border: #557dff 1px solid ;
 }
 
 .python,.git{
-    width: 5vw;
     border: #ff9544 1px solid ;
 
 }

@@ -31,28 +31,35 @@ export default function Count() {
 
   return (
     <div id="count-section" className="count">
+<<<<<<< Updated upstream
       
+=======
+>>>>>>> Stashed changes
         <Row className="stats-row">
-          <Col span={4} className="data">
+          <Col xs={24} sm={12} md={8} lg={6} xl={4} xxl={3} className="data">
             <h1 className="count-digits">
               <CountUp start={startCounting ? 0 : null} end={6} duration={6} separator="," />
             </h1>
             <h5>projects completed</h5>
           </Col>
-          <Col span={4} className="data">
+          <Col xs={24} sm={12} md={8} lg={6} xl={4} xxl={3} className="data">
             <h1 className="count-digits">
               <CountUp start={startCounting ? 0 : null} end={150} duration={6} separator="," />+
             </h1>
             <h5>DSA questions solved</h5>
           </Col>
-          <Col span={4} className="data">
+          <Col xs={24} sm={12} md={8} lg={6} xl={4} xxl={3} className="data">
             <h1 className="count-digits">
               <CountUp start={startCounting ? 0 : null} end={4} duration={6} separator="," />
             </h1>
             <h5>programming languages</h5>
           </Col>
         </Row>
+<<<<<<< Updated upstream
       
     </div>
+=======
+      </div>
+>>>>>>> Stashed changes
   );
 }

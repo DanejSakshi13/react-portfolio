@@ -1,7 +1,8 @@
 .hire-main-section {
     background-color: white;
-    height: 90vh;
+    height: max-content;
     width: 100vw;
+    padding: 5vh;
 }
 
 h1{
@@ -20,13 +21,10 @@ h1{
 }
 
 
-
-
-
 /* Circle */
 .circle {
-    height: 100px;
-    width: 100px;
+    height: 6em;
+    width: 6em;
     border-radius: 50%;
     background-color: #000000;
     margin-left: 70%;

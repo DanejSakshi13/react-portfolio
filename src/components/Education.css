@@ -1,7 +1,7 @@
 .main{
-    height: 170vh;
+    height: max-content;
     width: 100vw;
-     
+     margin-top: 10vh;
 
 }
 .education{

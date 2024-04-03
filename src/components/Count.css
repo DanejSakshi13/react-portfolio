@@ -1,7 +1,7 @@
 .count{
-    height: 50vh;
-    background-size: cover;
+    height: max-content;
     position: relative;
+<<<<<<< Updated upstream
     padding-top: 5vh;
     background-color: black;
     height: 50vh;
@@ -9,43 +9,53 @@
     position: relative;
     width: 100%;
     padding-top: 8vh;
+=======
+    background-color: black;
+    width: 100%;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    align-items: center;
+>>>>>>> Stashed changes
 }
 
-/* @media only screen and (max-width: 600px) {
-  .stats {
-    height:10vh;
+@media only screen and (max-width: 600px) {
+    .count {
+      padding-top:2vh;
+
+    }
+    .data{
+        font-size: 0.9em;
+    }
   }
+<<<<<<< Updated upstream
   .count{
     height:10vh
   }
 } */
 
+=======
+>>>>>>> Stashed changes
 
 .stats-row{
     align-items: center;
-    /* background-color: rgb(0, 0, 0); */
     margin-left: 14%;
-    width: 70vw;
-    padding-top: 3%;
+    width: 70vw;    
 }
 
 .data{
-    width: 30px;
-    height: 70px;
+    width: 30%;
     margin-left: 13%;
     color: #ffffff;
-    font-size: 2.3vw;
     text-align: center;
-    /* margin-top: 95px; */ 
 }
 .data h1 {
     display: block;
-    font-size: 2.1em;
+    font-size: 5em;
     margin: 0;
     padding: 0;
     font-weight: bold;
     text-align: center;
-
 } 
 
 .data h5{
@@ -53,10 +63,9 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 1.4vw;
+    font-size: 1.3em;
     font-family: Lexend Deca;
 }
-
 
 .count-digits{
     color: rgb(255, 255, 255);
