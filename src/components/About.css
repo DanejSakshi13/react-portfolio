@@ -13,8 +13,9 @@
 
 @media only screen and (max-width: 600px) {
   .white-card, .avtaar {
-    width:30vw;
+    width:50vw;
     height: max-content;
+    font-size: 12px;
   }
 }
 
@@ -34,7 +35,7 @@
     margin-block-end: 0;
     font-family: League Spartan;
     font-weight: 500;
-    font-size: 6vw;
+    font-size: 70px;
     opacity: 0.9;
     margin-left: 10vw;
     padding-top: 5%;
@@ -42,7 +43,7 @@
 
 .avtaar{
   background-color: #ffffff;
-    height:50vh;
+    height:20vh;
     width: 25vw;
     border: 2px black solid;
     margin-left: 10vw;

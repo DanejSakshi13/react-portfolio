@@ -6,50 +6,61 @@ import cpplogo from "../images/cpp_logo.png"
 export default function Skills() {
 
     return (
-        <div className="main-section">
+        <div className="skill-section">
             <h1 className="skills-heading">what i'm good at</h1>
-            <Row className="web-diagram">
-                <Col className="col" xs={24} sm={12} md={8} lg={6} xl={4} xxl={3}>
-                    <Row><h1 className="what-skill prog-lang">Programming languages</h1></Row>
-                    <Row >
-                        <Col className="skill html"><p>C/C++</p></Col>
-                        {/* <Col><img src={cpplogo} alt="" className="tech-stack-logo"/></Col> */}
-                    </Row>                                                                                                                      
-                    <Row className="skill python"><p>Python</p></Row>
-                    <Row className="skill javascript"><p>Javascript</p></Row>
+            
+            <h5 className="skill-sections">Programming language</h5>
+            <Row className="skill-row">
+                <div className="skill">
+                    <img src={cpplogo} alt="" className="skill-logo"/>
+                    C++ 
+                </div>
+                <div className="skill">Javascript</div>
+                <div className="skill">Python</div>
+            </Row>
 
-                </Col>
-                <Col className="col" xs={24} sm={12} md={8} lg={6} xl={4} xxl={3}>
-                    <Row><h1 className="what-skill">Frontend</h1></Row>
-                    <Row >
-                        <Col className="skill html"><p>HTML</p></Col>
-                        <Col className="skill css"><p>CSS</p></Col>
-                    </Row>
-                    <Row className="skill tailwind"><p>Tailwind</p></Row>
-                    <Row className="skill javascript"><p>Javascript</p></Row>
-                    <Row className="skill react"><p>ReactJS</p></Row>
-                </Col>
-                <Col className="col" xs={24} sm={12} md={8} lg={6} xl={4} xxl={3}>
-                    <Row><h1 className="what-skill">Backend</h1></Row>
-                    <Row className="skill node"><p>NodeJS</p></Row>
-                    <Row className="skill express"><p>ExpressJS</p></Row>
-                    <Row className="skill flask"><p>Flask</p></Row>
-                    <Col className="skill php"><p>PHP</p></Col>
-                </Col>
-                <Col className="col" xs={24} sm={12} md={8} lg={6} xl={4} xxl={3}>
-                    <Row><h1 className="what-skill">Database</h1></Row>
-                    <Row className="skill mysql"><p>MySQL</p></Row>
-                    <Row className="skill mongodb"><p>MongoDB</p></Row>
-                    <Row className="skill postgres"><p>PostgreSQL</p></Row>
-                    <Row className="skill oracle"><p>OracleDB</p></Row>
-                </Col>
-                <Col className="col" xs={24} sm={12} md={8} lg={6} xl={4} xxl={3}>
-                    <Row><h1 className="what-skill">Tools</h1></Row>
-                    <Row className="skill postman"><p>Postman</p></Row>
-                    <Row className="skill figma"><p>Figma</p></Row>
-                    <Row className="skill git"><p>GitHub</p></Row>
-                </Col>
+            <h5 className="skill-sections">Frontend Technologies</h5>
+            <Row className="skill-row">
+                <div className="skill">ReactJS</div>
+                <div className="skill">CSS</div>
+                <div className="skill">HTML</div>
+                <div className="skill">Javascript</div>
+                <div className="skill">Bootstrap</div>
+            </Row>
+
+            <h5 className="skill-sections">Backend Technologies</h5>
+            <Row className="skill-row">
+                <div className="skill">NodeJS</div>
+                <div className="skill">ExpressJS</div>
+                <div className="skill">Flask</div>
+                <div className="skill">Javascript</div>
+                <div className="skill">PHP</div>
+            </Row>
+
+            <h5 className="skill-sections">Databases</h5>
+            <Row className="skill-row">
+                <div className="skill">mySQL</div>
+                <div className="skill">MongoDB</div>
+                <div className="skill">postgreSQL</div>
+            </Row>
+
+            <h5 className="skill-sections">Tools</h5>
+            <Row className="skill-row">
+                <div className="skill">Figma</div>
+                <div className="skill">Postman</div>
             </Row>
         </div>
     );
 }
+
+
+
+
+
+
+
+
+
+
+
+

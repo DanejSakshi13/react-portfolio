@@ -71,7 +71,16 @@ h1{
     color: rgb(255, 255, 255);
   }
 
-
+  @media only screen and (max-width: 600px) {
+    .circle {
+      margin-left:150%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .circle {
+      margin-left:150%;
+    }
+  }
 
 
 
