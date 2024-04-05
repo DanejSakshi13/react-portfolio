@@ -94,3 +94,23 @@
     border-radius: 20px;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .heading {
+      padding-left:10%;
+      font-size: 60px;
+    }
+    .mac-mini-div {
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+        margin-top: 3vh;
+      }
+      .projects{
+        height: 60vh;
+      }
+      .carousel-item h1{
+        font-size: 6vw;
+        margin-top: 25px;
+    }
+  }
