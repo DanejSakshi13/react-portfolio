@@ -1,47 +1,96 @@
 .projects {
     background-color: rgb(255, 255, 255);
     height: 100vh;
+    position: relative;
 }
 
 .heading {
-    font-family: League Spartan;
-    font-weight: 500;
-    text-align: left;
-    font-size: 70px;
-    opacity: 0.9;
-    padding-left: 80px;
-    padding-top: 100px;
+    color: #000000;
     margin-block-start: 0;
     margin-block-end: 0;
-    color: #000000;
+    font-family: League Spartan;
+    font-weight: 500;
+    font-size: 70px;
+    opacity: 0.9;
+    margin-left: 10vw;
+    padding-top: 5%;
 }
 
-@media only screen and (max-width: 600px) {
-    .heading {
-      padding-left:10%;
-      font-size: 60px;
-    }
-  }
-
 .mac-mini-div {
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
     position: relative;
-    background-image: url("../images/macbg.png");
-    background-repeat: no-repeat;
-    width: 80%;
-    height: 85%;
-    margin-top: 15vh;
-    margin-left: 10vw;
+    width: 45vw;
+    height: 90vh;
+    margin-left: 30vw;
+    background-image: url('../images/macbg.png'); 
+    background-size: cover; 
+}
+
+.mac-screen {
+    position: absolute;
+    top: 8%;
+    left: 3.1%;
+    /* right: 10%; */
+    /* bottom: -10%; */
+    height: 60%;
+    width: 94%;
+    color: white;
+    background-color: rgba(0, 0, 0); 
+    z-index: 2;
+}
+
+.mac-screen:hover{
+    background-color: #dfff52;
+    color: black;
 }
 
 .carousel {
-    margin-left: 0.5vw;
-    width: 31vw;
-    /* height: 20vh; */
-    margin-top: 1vh;
+    position: absolute;
+    top: 20%; 
+    left: 10%;
+    right: 10%;
+    bottom: 20%;
+    z-index: 3;
 }
 
+.carousel-item{
+    /* color: white;  */
+    top: -50px;
+    
+}
 
+/* .carousel-item:hover{
+    transform: translateX(50px);
+    transition: 0.3s ease-in-out;
+} */
+
+.carousel-item h1{
+    font-size: 6vw;
+}
+
+.carousel-control-next {
+    right: -70px;
+}
+
+.carousel-control-prev{
+    left: -70px;
+}
+
+.carousel-indicators{
+    bottom: -70px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow :visible;
+    overflow-y: visible;
+    overflow-x: visible;
+}
+
+.round-button{
+    width: 3em;
+    height: 2.5em;
+    background-color: black;
+    border-radius: 20px;
+}
 

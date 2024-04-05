@@ -15,7 +15,7 @@ export default function Home() {
       <NavbarComponent />
       <Row>
         <Col xs={24} sm={12}>
-          <h1 className="my-name">sakshi ganesh danej</h1>
+          <h1 className="my-name">Sakshi Ganesh Danej</h1>
           <h4 className="desc">fullstack web developer</h4>
           <div className="socials">
             <div className="round-button"><a href="https://www.linkedin.com/in/sakshi-danej/"><FontAwesomeIcon icon={faLinkedin} className="icon"/></a></div>

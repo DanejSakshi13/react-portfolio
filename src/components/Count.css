@@ -7,7 +7,7 @@
     background-size: cover;
     position: relative;
     width: 100%;
-    padding-top: 10vh;
+    padding-top: 14vh;
     padding-bottom: 10vh;
     align-items: center;
 }
@@ -24,9 +24,17 @@
 
 .stats-row{
     align-items: center;
-    margin-left: 14%;
+    margin-left: 13%;
     width: 70vw;    
 }
+
+@media only screen and (max-width: 600px) {
+    .stats-row{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+  }
+
 
 .data{
     width: 30%;

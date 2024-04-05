@@ -26,6 +26,12 @@
   font-size: x-large;
 }
 
+@media only screen and (max-width: 600px) {
+  .navbar-dark .navbar-nav .nav-link  a{
+      font-size: 100px;
+  }
+}
+
 .navbar-dark .navbar-nav .nav-link  a
 {
     color: rgba(255, 255, 255, 0.3); 

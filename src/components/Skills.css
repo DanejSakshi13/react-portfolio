@@ -1,7 +1,6 @@
 .skill-section{
     height: max-content;
     background-color: white;
-    /* margin-top: 42vw; */
     padding: 10% 0% 10% 0%;
     margin-left: 7.2vw;   
 }
@@ -21,21 +20,21 @@
     flex-direction: column;
     gap: 1.5%;
     text-align: left;
-    
 }
-
 
 .skill{
     width: max-content;
-    height: 55px;
+    height: 48px;
     background-color: rgb(255, 255, 255);
     font-size: 150%;
     color: rgb(0, 0, 0);
     font-family: Lexend Deca;
     border-radius: 1vh;
     margin-top: 2vh;
-    padding : 1.2vh 2vw;
     border: 2px solid black;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
 }
 
 .skill:hover{
@@ -43,14 +42,17 @@
     color: white;
 }
 
-
 .skill-sections{
     margin-top: 2vh;
     font-size: 150%;
 }
 
 .skill-logo{
-    height: 40px;
-    padding-right: 2vw;
-    
+    height: 35px;
+    padding-right: 1.5vw;
+    padding-top: 1vh;
+}
+
+.skill-name{
+    padding-top: 1vh;
 }
