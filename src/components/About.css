@@ -2,7 +2,7 @@
     background-color: #ffffff;
     height:50vh;
     width:45vw;
-    margin:2% 15%;
+    margin:2% 20%;
     border-radius: 20px;
     border: 2px black solid;
     margin-top:2.8vh;
@@ -43,15 +43,26 @@
 
 .avtaar{
   background-color: #ffffff;
-    height:20vh;
+    height:52vh;
     width: 25vw;
-    border: 2px black solid;
     margin-left: 10vw;
     margin-top:2.8vh;
     border-radius: 20px;
+}
 
+.avtar-img{
+  width: 100%;
+  height: 100%;
 }
 
 
-
+@media only screen and (max-width: 600px) {
+  .about-me{
+    margin-top: 20vh;
+  }
+  .avtaar{
+    height:30vh;
+    width: 25vw;
+  }
+}
 

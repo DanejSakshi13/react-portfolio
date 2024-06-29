@@ -56,3 +56,22 @@
 .skill-name{
     padding-top: 1vh;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .skill{
+        height: 7vh;
+        width: max-content;
+    }
+    .skill-logo{
+        height: 4vh;
+        padding-right: 1.5vw;
+        padding-top: 1vh;
+    }
+    .skill-name{
+        font-size: medium;
+    }
+    .skill-sections{
+        font-size: x-large;
+    }
+  }

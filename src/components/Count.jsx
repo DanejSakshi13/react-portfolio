@@ -41,7 +41,7 @@ export default function Count() {
           </Col>
           <Col xs={24} sm={12} md={8} lg={6} xl={4} xxl={3} className="data">
             <h1 className="count-digits">
-              <CountUp start={startCounting ? 0 : null} end={150} duration={6} separator="," />+
+              <CountUp start={startCounting ? 0 : null} end={200} duration={6} separator="," />+
             </h1>
             <h5>DSA questions solved</h5>
           </Col>

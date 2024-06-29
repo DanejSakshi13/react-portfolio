@@ -2,7 +2,7 @@ import { Row, Col } from "antd";
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./About.css";
-import Profile from "../images/profile.png";
+import Avtar from "../images/AvatarMaker3.png";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
@@ -11,7 +11,7 @@ export default function About() {
             <h1 className="about-me-heading">about me</h1>
             <Row className="outline-div">
                 <Col span={7}>
-                    <div className="avtaar"></div>
+                    <div className="avtaar"><img className="avtar-img" src={Avtar} alt="" srcset="" /></div>
                 </Col>
                 <Col span={17}>
                     <div className="white-card">

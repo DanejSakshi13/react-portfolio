@@ -8,7 +8,7 @@
 .my-name {
     color: rgb(0, 0, 0);
     font-family: 'League Spartan', sans-serif;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: bold;
     margin-top: 30%;
     margin-left: 5vw;
@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 600px) {
     .typing-gif{
-        margin-top: 0;
+        display: none;
     }
     .my-name{
         margin-top: 21%;
