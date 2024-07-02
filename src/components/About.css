@@ -59,9 +59,11 @@
 @media only screen and (max-width: 600px) {
   .about-me{
     margin-top: 20vh;
+    display:flex;
+    flex-direction: column;
   }
   .avtaar{
-    height:30vh;
+    height:15vh;
     width: 25vw;
   }
 }
