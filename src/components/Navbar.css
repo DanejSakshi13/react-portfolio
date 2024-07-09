@@ -3,7 +3,7 @@
   margin-right: auto;
   padding-left: 100px;
   font-size: xx-large;
-  font-family: 'League Spartan', sans-serif; /* Apply the font-family to the brand */
+  font-family: 'Lexend Deca', sans-serif; 
 }
 
 .navbar-nav {
@@ -13,7 +13,7 @@
 .navbar-dark .navbar-nav .nav-link {
   color: whitesmoke;
   padding-left: 18px;
-  font-size: 1.6vw;
+  font-size: 1.3vw;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -22,7 +22,7 @@
 
 .navbar-right {
   margin-right: 50px;
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-size: x-large;
 }
 

@@ -34,9 +34,9 @@ export default function Education() {
               }}
               icon={<FontAwesomeIcon icon={faSchool} />}
             >
-              <h5 className="vertical-timeline-element-title">
+              <h6 className="vertical-timeline-element-title">
                 Rasbihari International school
-              </h5>
+              </h6>
               <p style={{ color: "#dfff50" }}>SSC Percentage : 88.80%</p>
               <h6>2019</h6>
             </VerticalTimelineElement>
@@ -52,9 +52,9 @@ export default function Education() {
               }}
               icon={<FontAwesomeIcon icon={faBuildingColumns} />}
             >
-              <h5 className="vertical-timeline-element-title">
+              <h6 className="vertical-timeline-element-title">
                 H.P.T. Arts & R.Y.K. Science Junior College
-              </h5>
+              </h6>
               <p style={{ color: "#dfff50" }}>HSC Percentage : 86.67%</p>
               <h6>2021</h6>
             </VerticalTimelineElement>
@@ -70,9 +70,9 @@ export default function Education() {
               }}
               icon={<FontAwesomeIcon icon={faGraduationCap} />}
             >
-              <h5 className="vertical-timeline-element-title">
+              <h6 className="vertical-timeline-element-title">
                 K. K. Wagh Institute of Engineering Education & Research
-              </h5>
+              </h6>
               <p style={{ color: "#dfff50" }}>Avg CGPA : 9.00</p>
               <h6>2021-2025</h6>
               {/* <p>
@@ -92,7 +92,7 @@ System, Human Computer Interface, Blockchain technology
               }}
               icon={<FontAwesomeIcon icon={faBriefcase} />}
             >
-              <h5>Homobliss - Evolving Minds</h5>
+              <h6>Homobliss - Evolving Minds</h6>
               <p>
                 <span style={{ fontStyle: "italic" }}>
                   Feb 2023 - Feb 2024{" "}
@@ -113,7 +113,7 @@ System, Human Computer Interface, Blockchain technology
                 border: "4px solid white",
               }}
             >
-              <h5 style={{ color: "#dfff50" }}>Imagine Your Logo Here!</h5>
+              <h6 style={{ color: "#dfff50" }}>Imagine Your Logo Here!</h6>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>

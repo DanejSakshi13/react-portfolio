@@ -11,7 +11,7 @@
 }
 
 .col-heading-education{
-    font-family: League Spartan;
+    font-family: Lexend Deca;
     font-weight: 500;
     text-align: left;
     font-size: 70px;
@@ -44,5 +44,8 @@ h6,h4,h5,h3,h1,p{
       width: 85%;
       margin-left: 5%;
       margin-top: 5vh;
+    }
+    .main{
+        margin-top: -1vh;
     }
   }

@@ -5,7 +5,7 @@
     margin-left: 7.2vw;   
 }
 .skills-heading{
-    font-family: League Spartan;
+    font-family: Lexend Deca;
     font-weight: 500;
     text-align: left;
     opacity: 0.9;
@@ -17,7 +17,6 @@
 
 .skill-row{
     display: flex;
-    flex-direction: column;
     gap: 1.5%;
     text-align: left;
 }
@@ -26,7 +25,7 @@
     width: max-content;
     height: 48px;
     background-color: rgb(255, 255, 255);
-    font-size: 150%;
+    font-size: 125%;
     color: rgb(0, 0, 0);
     font-family: Lexend Deca;
     border-radius: 1vh;
@@ -44,7 +43,7 @@
 
 .skill-sections{
     margin-top: 2vh;
-    font-size: 150%;
+    font-size: 130%;
 }
 
 .skill-logo{
@@ -60,18 +59,18 @@
 
 @media only screen and (max-width: 600px) {
     .skill{
-        height: 7vh;
+        height: 6vh;
         width: max-content;
     }
     .skill-logo{
-        height: 4vh;
+        height: 3.5vh;
         padding-right: 1.5vw;
         padding-top: 1vh;
     }
     .skill-name{
         font-size: medium;
     }
-    .skill-sections{
-        font-size: x-large;
+    .skill-section{
+        margin-top: 8vh;
     }
   }

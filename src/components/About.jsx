@@ -10,10 +10,10 @@ export default function About() {
         <div className="about-me">
             <h1 className="about-me-heading">about me</h1>
             <Row className="outline-div">
-                <Col span={7}>
+                <Col xs={24} lg={7}>
                     <div className="avtaar"><img className="avtar-img" src={Avtar} alt="" srcset="" /></div>
                 </Col>
-                <Col span={17}>
+                <Col xs={24} lg={17}>
                     <div className="white-card">
                         <p>Hello, I'm Sakshi, a passionate MERN stack developer with a creative flair.
                              Combining my love for technology with my artistic sensibilities, I strive

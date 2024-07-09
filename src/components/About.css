@@ -11,13 +11,6 @@
     box-shadow: 10px 14px 1px rgba(0, 0, 0,1);
 }
 
-@media only screen and (max-width: 600px) {
-  .white-card, .avtaar {
-    width:50vw;
-    height: max-content;
-    font-size: 12px;
-  }
-}
 
 .outline-div{
   display: flex;
@@ -33,7 +26,7 @@
     color: #000000;
     margin-block-start: 0;
     margin-block-end: 0;
-    font-family: League Spartan;
+    font-family: Lexend Deca;
     font-weight: 500;
     font-size: 70px;
     opacity: 0.9;
@@ -57,14 +50,19 @@
 
 
 @media only screen and (max-width: 600px) {
-  .about-me{
-    margin-top: 20vh;
-    display:flex;
-    flex-direction: column;
+  .white-card {
+    width: 80vw;
+    margin: 2% 10%; 
+    font-size: 14px; 
+    height: max-content;
   }
-  .avtaar{
-    height:15vh;
-    width: 25vw;
+
+  .avtaar {
+    display: none;
+  }
+  .about-me{
+    margin-top: 10vh;
   }
 }
+
 

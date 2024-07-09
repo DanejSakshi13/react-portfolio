@@ -8,7 +8,7 @@
     color: #000000;
     margin-block-start: 0;
     margin-block-end: 0;
-    font-family: League Spartan;
+    font-family: Lexend Deca;
     font-weight: 500;
     font-size: 70px;
     opacity: 0.9;
@@ -100,7 +100,7 @@
       font-size: 60px;
     }
     .mac-mini-div {
-        width:100%;
+        width:96%;
         height: 50vh;
         margin-left: 2px;
         margin-top: 3vh;
@@ -116,4 +116,5 @@
         font-size: 6vw;
         margin-top: 25px;
     }
+    
   }
