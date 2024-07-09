@@ -12,7 +12,7 @@ const Projects = () => {
             <h1 className="heading">projects</h1>
             <div className="mac-mini-div">
                 <div className="mac-screen">
-                    <Carousel fade interval={2000} >
+                    <Carousel fade interval={3000} >
                         <Carousel.Item className="carousel-item">
                             <h1>podcashh</h1>
                             <p>A free video and audio streaming platform</p>
@@ -43,6 +43,14 @@ const Projects = () => {
                             <div style={{display:"flex",gap: "5px"}}>
                             <div className="round-button"><a href="https://github.com/DanejSakshi13/react-portfolio"><FontAwesomeIcon icon={faGithub} className="icon"/></a></div>
                             <div className="round-button"><a href="https://react-portfolio-three-pink.vercel.app/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icon"/></a></div>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item  className="carousel-item">
+                            <h1>Swipe</h1>
+                            <p>Swipe right on your next dev partner</p>
+                            <div style={{display:"flex",gap: "5px"}}>
+                            <div className="round-button"><a href="https://github.com/DanejSakshi13/SWIPE"><FontAwesomeIcon icon={faGithub} className="icon"/></a></div>
+                            <div className="round-button"><a href="https://github.com/DanejSakshi13/SWIPE"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icon"/></a></div>
                             </div>
                         </Carousel.Item>
                     </Carousel>
