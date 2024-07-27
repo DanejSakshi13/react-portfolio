@@ -15,7 +15,7 @@ export default function About() {
                 </Col>
                 <Col xs={24} lg={17}>
                     <div className="white-card">
-                        <p>Hello, I'm Sakshi, a passionate MERN stack developer with a creative flair.
+                        <p>Hello, I'm Sakshi, a passionate full stack developer with a creative flair.
                              Combining my love for technology with my artistic sensibilities, I strive
                               to bring innovation and beauty to every project I undertake.
                             Beyond coding, I am an artist at heart, I find joy in bringing my imagination
